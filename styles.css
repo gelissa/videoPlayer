@@ -35,9 +35,15 @@ nav {
     width: 720px;
     height: 480px;
     border-radius: 20%;
-    background-color: white;
+    /* background-color: white; */
     box-shadow: 10px 10px 10px 10px #a28f8fc4;
     /* margin-right: 10px; */
+}
+
+iframe {
+    border: transparent;
+    border-radius: 2%;
+    box-shadow: 18px 20px 20px 3px #e6b9b9b5;
 }
 
 .two {
@@ -75,7 +81,7 @@ nav {
 
 
 .primary {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin-right: 2%;
 }
