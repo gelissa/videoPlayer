@@ -12,6 +12,12 @@ body {
     background-size: cover;
 }
 
+/* @media only screen and (max-width: 300px) {
+    body {
+        background-size: cover;
+    }
+  } */
+
 nav {
     background-color: #c55a11;
 }
@@ -21,11 +27,17 @@ nav {
 }
 
 .holder {
-    width: 640px;
-    height: 360px;
+    display: flex;
+    flex-direction: row;
+}
+
+.video {
+    width: 720px;
+    height: 480px;
     border-radius: 20%;
     background-color: white;
-    box-shadow: 10px 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px 10px #a28f8fc4;
+    /* margin-right: 10px; */
 }
 
 .two {
@@ -53,3 +65,50 @@ nav {
   .innertwo:hover {
     box-shadow: 5px 2px 5px 5px rgb(112, 110, 110);
   }
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.primary {
+    border: 1px solid red;
+    width: 70%;
+    margin-right: 2%;
+}
+
+.primary-inner {
+    margin: 17px 50px;
+}
+
+.secondary {
+    border: 1px solid blue;
+    width: 20%;
+}
+
+/* @media only screen and (max-width: 300px) {
+
+     body {
+        background-size: cover;
+    }
+
+    .columns {
+      flex-direction: column;
+      margin-left: 18%;
+    }
+
+    .secondary {
+    border: 1px solid blue;
+    width: 70%;
+    height: 250px;
+    margin-top: 2%;
+}
+
+    .video {
+    width: 590px;
+    height: 360px;
+    }
+  } */
